@@ -11,12 +11,12 @@
 
 # API(EvolentHealthAPI) - A typical top-level directory layout
 .
-├── AutoMapper              # Object-object mapper
-├── Controllers             # Act as mediator between UI and Repositories
-├── Model                   # Entity Framework model 
-├── Repositories            # Actual data manipulation logic
-├── appsettings.json        # Connection settings
-├── Startup.cs              # 
+├── AutoMapper              # Object-object mapper__
+├── Controllers             # Act as mediator between UI and Repositories__
+├── Model                   # Entity Framework model__
+├── Repositories            # Actual data manipulation logic__
+├── appsettings.json        # Connection settings__
+├── Startup.cs              #__
 
 # Unit Test(EvolentHealthAPITest) - A typical top-level directory layout
 .
@@ -26,7 +26,7 @@
 
 
 * Swagger UI
-![Alt text](images\swagger_main.png "swaggermain")
+![Alt text](https://github.com/asifmulla308/EvolentHealth_API/blob/master/images/swagger_main.png "swaggermain")
 
 * Development Details:
 - Used SQL Server Database ('Database Name': "evolenthealth")
