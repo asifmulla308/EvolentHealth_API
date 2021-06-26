@@ -21,8 +21,8 @@
 
    ### Unit Test(EvolentHealthAPITest) - A typical top-level directory layout
 
-- Unit test covers all method/function that has been used.
-.
+- Unit test covers all method/function that has been used. \
+
 ├── ControllerTests &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Covers UnitTest case for all controller's actions \
 ├── Repository     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   # Covers unit test case  for repository functions
 
@@ -44,12 +44,12 @@
 - Controller has below methods
 
 
-├── Get                     # Get All list of contacts \
-├── GetContactById          # Get contact by passing Id \
-├── Post                    # Insert new contact \
-├── Put                     # Update existing Contact details \
-├── UpdateStatus(Put)       # Update user status \
-├── Delete                  # Delete contact details using Id
+├── Get             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         # Get All list of contacts \
+├── GetContactById   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        # Get contact by passing Id \
+├── Post             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        # Insert new contact \
+├── Put             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         # Update existing Contact details \
+├── UpdateStatus(Put) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       # Update user status \
+├── Delete            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       # Delete contact details using Id
 
 
 
