@@ -17,12 +17,22 @@ namespace EvolentHealthAPI.Controllers
     {
         private readonly IContactsRepository _contactsRepository;
         private readonly IMapper _mapper;
+
+        /// <summary>
+        /// Constructor to make use of DI
+        /// </summary>
+        /// <param name="contactsRepository"></param>
+        /// <param name="mapper"></param>
         public ContactsController(IContactsRepository contactsRepository,IMapper mapper)
         {
             _contactsRepository = contactsRepository;
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Get All contact list
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -42,6 +52,11 @@ namespace EvolentHealthAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get contacts list by user id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         [Route("Getcontactbyid/{id}")]
         public async Task<IActionResult> GetContactById(int id)
@@ -61,6 +76,12 @@ namespace EvolentHealthAPI.Controllers
                 return NotFound("Something went wrong!");
             }
         }
+
+        /// <summary>
+        /// Create new user contact
+        /// </summary>
+        /// <param name="contact"></param>
+        /// <returns></returns>
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Contact contact)
@@ -82,6 +103,12 @@ namespace EvolentHealthAPI.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Update existing user contact details
+        /// </summary>
+        /// <param name="contact"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Put([FromBody] Contact contact)
         {
@@ -101,6 +128,13 @@ namespace EvolentHealthAPI.Controllers
                 return NotFound("Something went wrong!");
             }
         }
+
+        /// <summary>
+        /// Update user status
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="status"></param>
+        /// <returns></returns>
         [HttpPut]
         [Route("UpdateStatus/{id}/{status}")]
         public async Task<IActionResult> UpdateStatus(int id,string status)
@@ -121,6 +155,12 @@ namespace EvolentHealthAPI.Controllers
             }
         }
 
+
+        /// <summary>
+        /// Remove user contact byusing user id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
