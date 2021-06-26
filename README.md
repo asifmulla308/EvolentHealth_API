@@ -1,16 +1,16 @@
 # EvolentHealthAPI
 
-* Overview
+## Overview
 - API url: https://localhost:44376/api/v1/
 - Follows Repository Design pattern for application development
 - EvolentHealth API has been developed using .Net Core(3.1), EntityFramework(5.0.7), SQL Server
 - API Testing is done using Swagger
 - Unit test case is written using xUnit framework
 
-* Project Directory
+# Project Directory
 - Project Solution contains API adn Test project
 
-# API(EvolentHealthAPI) - A typical top-level directory layout
+    ### API(EvolentHealthAPI) - A typical top-level directory layout
 
 ├── AutoMapper              # Object-object mapper \
 ├── Controllers             # Act as mediator between UI and Repositories \
@@ -19,7 +19,7 @@
 ├── appsettings.json        # Connection settings \
 ├── Startup.cs              # 
 
-# Unit Test(EvolentHealthAPITest) - A typical top-level directory layout
+   ### Unit Test(EvolentHealthAPITest) - A typical top-level directory layout
 
 - Unit test covers all method/function that has been used.
 .
@@ -30,9 +30,11 @@
 
 ### Swagger UI
 - Swagger Index screen
+
 ![Alt text](https://github.com/asifmulla308/EvolentHealth_API/blob/master/images/swagger_main.png "swaggermain")
 
 - Swagger real time example
+
 ![Alt text](https://github.com/asifmulla308/EvolentHealth_API/blob/master/images/swagger_get_demo.png "swaggermain")
 
 ### Development Details:
