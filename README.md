@@ -12,19 +12,19 @@
 
     ### API(EvolentHealthAPI) - A typical top-level directory layout
 
-├── AutoMapper              # Object-object mapper \
-├── Controllers             # Act as mediator between UI and Repositories \
-├── Model                   # Entity Framework model \
-├── Repositories            # Actual data manipulation logic \
-├── appsettings.json        # Connection settings \
-├── Startup.cs              # 
+├── AutoMapper     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         # Object-object mapper \
+├── Controllers    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     # Act as mediator between UI and Repositories \
+├── Model          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         # Entity Framework model \
+├── Repositories   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         # Actual data manipulation logic \
+├── appsettings.json  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      # Connection settings \
+├── Startup.cs    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;          # 
 
    ### Unit Test(EvolentHealthAPITest) - A typical top-level directory layout
 
 - Unit test covers all method/function that has been used.
 .
-├── ControllerTests         # Covers unit test case  for all controller's actions \
-├── Repository              # Covers unit test case  for repository functions
+├── ControllerTests &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;# Covers UnitTest case for all controller's actions \
+├── Repository     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   # Covers unit test case  for repository functions
 
 
 
